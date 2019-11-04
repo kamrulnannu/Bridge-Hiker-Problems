@@ -3,7 +3,7 @@
 # Bridge# 2 hikers need help from hikers of Bridge# 1.
 # Bridge# 3 hikers need help from hikers of bridge# 1 and 2
 # And so on ...
-# Code implemention handles the abive scenario
+# Code implemention handles the above scenario
 # First Bridge have to have "Hikers", otherwise, the program will
 # complain and exit gracefully.
 #
