@@ -1,0 +1,55 @@
+#
+# Hikers of of bridge# 1 meets hikers of Bridge# 2. Hikers of 
+# Bridge# 2 hikers need help from hikers of Bridge# 1.
+# Bridge# 3 hikers need help from hikers of bridge# 1 and 2
+# And so on ...
+#
+
+BridgeAndHikers:
+ Bridge:
+        id: 1              # Uniqe Id a bridge
+        length: 200        # length of bridge in feet
+
+ Hikers:
+         -name: "Mike tike"      # name od hike
+         speed: 10               # walk speed in ft/min
+
+         -name: "To Be or Not be"
+         speed: 20.5
+
+         -name: "Hello World"
+         speed: 25
+
+
+BridgeAndHikers: # No new hikers in this bridge
+ Bridge:
+        id: 2
+        length: 400
+
+BridgeAndHikers:
+ Bridge:
+        id: 3
+        length: 350
+
+ Hikers:       # Hikers from Bridge number# 1 meet thses hikers in this Bridge. These hikers need help
+        -name: "Chris Marty"
+        speed: 30.75
+
+        -name: "ziaur Rahman"
+        speed: 25
+
+BridgeAndHikers:
+ Bridge:
+        id: 4
+        length: 937.75
+
+ Hikers:
+        -name: "For Fun"
+        speed: 50
+
+BridgeAndHikers:  # no new hikers for this bridge
+ Bridge:
+        id: 5
+        length: 349
+
+# Above hikers didn't meet ant hikers in this bridge
